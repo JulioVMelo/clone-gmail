@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="13px" viewBox="0 0 8 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gmail-Desktop" transform="translate(-1265.000000, -77.000000)" fill="#A4A5A5">
+            <g id="//-secondary-header" transform="translate(0.000000, 60.000000)">
+                <g id="pager" transform="translate(1251.000000, 10.000000)">
+                    <g id="chevron-left" transform="translate(18.500000, 13.500000) scale(-1, 1) translate(-18.500000, -13.500000) translate(6.000000, 1.000000)">
+                        <g id="Group">
+                            <polygon id="Shape" points="10.4166667 6.25 8.94791667 7.71875 13.71875 12.5 8.94791667 17.28125 10.4166667 18.75 16.6666667 12.5"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

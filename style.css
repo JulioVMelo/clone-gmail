@@ -1,0 +1,383 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+.content{
+    max-width: 1470px;
+    padding: 0 30px;
+    margin:0 auto;
+    height: 100%;
+}
+input, button{
+    outline: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+#main-header{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    background-color: #f1f1f1;
+    height:60px;
+}
+#main-header .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+#main-header .content div.container{
+    display: flex;
+    align-items: center;
+}
+#main-header .content div.container > img{
+    margin-right: 82px;
+}
+#main-header .content div.container .search{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+#main-header .content div.container .search input{
+    width:590px;
+    height: 30px;
+    background: #fff url("images/arrow-black.png") no-repeat 560px;
+    border: 1px solid #cdcdcd;
+    padding: 0px 30px 0px 10px;
+}
+#main-header .content div.container .search a{
+    width: 60px;
+    height: 30px;
+    background: #4183F8;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#main-header .content .action {
+    display: flex;
+    align-items: center;
+}
+#main-header .content .action img{
+    margin-right: 18px;
+}
+#main-header .content .action img.picture{
+    width:32px;
+    height:32px;
+    margin-right: 0px;
+    border-radius:50%;
+}
+#main-header .content .action img:nth-of-type(2){
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    background-color:#6D6D6D;
+    border-radius:50%;
+}
+#sub-header{
+    height: 48px;
+    box-shadow: 0px 1px 0px #E5E5E5;
+}
+#sub-header .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sub-header .content .sub-logo{
+    display: flex;
+    align-items: center;
+
+}
+#sub-header .content .sub-logo h2{
+    margin-right:120px;
+    font-weight: normal;
+    font-size: 19px;
+    color:#DD4B39;
+    position: relative;
+}
+#sub-header .content .sub-logo h2::after{
+    content: '';
+    background: url('images/Triangle-red.svg') no-repeat;
+    width:10px;
+    height: 10px;
+    position: absolute;
+    top:8px;
+    margin-left:5px;
+}
+#sub-header .content .sub-logo span{
+    width: 72px;
+    height: 29px;
+    background-color: #f3f3f3;
+    margin-right: 10px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    position: relative;
+}
+#sub-header .content .sub-logo span:nth-of-type(3){
+    font-size: 11px;
+    font-weight: bold;
+    color:#444444;
+}
+
+#sub-header .content .sub-logo span:nth-of-type(3)::after{
+    content: '';
+    background: url('images/Triangle-box.svg') no-repeat;
+    width:5px;
+    height: 5px;
+    position: absolute;
+    top:9px;
+    right: 14px;
+    margin-left:5px;
+}
+#sub-header .content .sub-logo span:first-of-type::after{
+    content: '';
+    background: url('images/Triangle-box.svg') no-repeat;
+    width:5px;
+    height: 5px;
+    position: absolute;
+    top:12px;
+    right: 20px;
+    margin-left:5px;
+}
+#sub-header .content .sub-logo span:first-of-type img{
+    margin-left:-10px;
+}
+
+#sub-header .content .sub-action{
+    display: flex;
+    align-items: center;
+}
+#sub-header .content .sub-action p{
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#sub-header .content .sub-action span{
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sub-header .content .sub-action span:first-of-type , #sub-header .content .sub-action span:nth-of-type(2) {
+    width: 25px;
+}
+#sub-header .content .sub-action span:nth-of-type(2){
+    margin-right:10px;
+}
+
+#sub-header .content .sub-action span:nth-of-type(3){
+    width:72px;
+    position: relative;
+    padding-left: -10px;
+}
+#sub-header .content .sub-action span:nth-of-type(3) img{ 
+    margin-left: -10px;
+}
+#sub-header .content .sub-action span:nth-of-type(3)::after{
+    content: '';
+    background: url('images/Triangle-box.svg') no-repeat;
+    width:5px;
+    height: 5px;
+    position: absolute;
+    top:9px;
+    right: 20px;
+    margin-left:5px;
+}
+
+main .content{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:normal;
+    padding: 0px;
+}
+main .content .widgets{
+    width: 181px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+main .content .widgets button{
+    width: 115px;
+    height: 29px;
+    background-color: #DD4B39;
+    color:#fff;
+    border-radius:2px;
+    font-size: 11px;
+    font-weight: bold;
+    border:none;
+    margin-left: 30px;
+}
+main .content .widgets ul{
+    width: 100%;
+    margin-top: 7px;
+    position: relative;
+}
+main .content .widgets ul li{
+    padding-left: 28px;
+    font-weight: normal;
+    font-size: 13px;
+    padding:5px 0px 5px 30px;
+}
+main .content .widgets ul li.active{
+    color: #FE4B22;
+    font-weight: bold;
+}
+main .content .widgets ul li.active::before{
+    content: '';
+    background-color: #DD4B39;
+    width:4px;
+    height: 22px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+main .content .inbox{
+    display: flex;
+    flex-direction: column;
+    width:1208px;
+}
+main .content .inbox .tabs{
+    display: flex;
+    flex-direction: row;
+}
+main .content .inbox .tabs .tab{ 
+    display: flex;
+    align-items: center;
+    height: 42px;
+    background-color: #F4F4F4;
+    width: 254px;
+    border:1px solid #D7D7D7;
+    padding-left: 15px;
+}
+main .content .inbox .tabs .tab img{
+    margin-right: 10px;
+} 
+main .content .inbox .tabs .tab span{
+    font-size: 13px;
+    font-weight: normal;
+}
+main .content .inbox .tabs .active{
+    background-color:#fff;
+    border-top:2px solid #737373;
+ }
+ 
+main .content .inbox .tabs .tab:nth-of-type(4) > div{
+    display: flex;
+    flex-direction: column;
+}
+main .content .inbox .tabs .tab:nth-of-type(4) div + span{
+    font-size: 11px;
+    color:#787878;
+    font-weight: normal;
+} 
+main .content .inbox .tabs .tab:nth-of-type(4) div .block span:last-of-type{
+    background-color:#EAB416;
+    color:#fff;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0px 3px;
+}
+main .content .inbox .tabs .tab:last-of-type{
+    position: relative;
+}
+
+main .content .inbox .tabs .tab:last-of-type::after{
+    content: "+";
+    height: 100%;
+    background-color: #F4F4F4 ;
+    width:13px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    border-left:1px solid #d7D7D7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .content .inbox  .tabs .tab:nth-of-type(3) > div{
+    display: flex;
+    flex-direction: column;
+}
+main .content .inbox .tabs .tab:nth-of-type(3) div + span{
+    font-size: 11px;
+    color:#787878;
+    font-weight: normal;
+} 
+main .content .inbox .tabs .tab:nth-of-type(3) div .block span:last-of-type{
+    background-color:#16a765;
+    color:#fff;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0px 3px;
+}
+
+main .content  .inbox .mails{
+    margin-top:5px;
+    display: flex;
+    flex-direction: column;
+}
+main .content  .inbox .mails .mail{
+    display: flex;
+    background-color: #f4f4f4;
+    border:1px solid #E5E5E5;
+    height: 40px;
+    justify-content: space-between;
+    margin-top:1px;
+}
+main .content  .inbox .mails .mail.lido{
+    display: flex;
+    background-color: #fff;
+    border:1px solid #E5E5E5;
+    height: 35px;
+    justify-content: space-between;
+    margin-top:1px;
+}
+main .content  .inbox .mails .mail .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-left:15px;
+}
+
+main .content  .inbox .mails .mail .info img{
+    margin-right: 10px;
+    width: 14px;
+    height:14px;
+}
+main .content  .inbox .mails .mail .info  .nome{
+    font-size: 13px;
+}
+main .content  .inbox .mails .mail p{
+    margin-left: -400px;
+    font-size: 13px;
+    align-items: center;
+    display: flex;
+}
+
+main .content  .inbox .mails .mail .data{
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    font-size:13px;
+}
